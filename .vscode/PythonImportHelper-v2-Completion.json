@@ -1405,7 +1405,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_CONSUMER_KEY = '50t2mN7NirbBsqjAu0FvACzJETJGpBGfJMroUGtEYMzHtP7H'\nMPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_PORT='587'\nEMAIL_USE_TLS='True'",
+        "peekOfCode": "MPESA_CONSUMER_KEY = '50t2mN7NirbBsqjAu0FvACzJETJGpBGfJMroUGtEYMzHtP7H'\nMPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1414,7 +1414,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_PORT='587'\nEMAIL_USE_TLS='True'\nEMAIL_HOST_USER='jnabango@gmail.com'",
+        "peekOfCode": "MPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1423,7 +1423,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_PORT='587'\nEMAIL_USE_TLS='True'\nEMAIL_HOST_USER='jnabango@gmail.com'\nEMAIL_HOST_PASSWORD='fxdb mmza zknq taif'",
+        "peekOfCode": "MPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1432,7 +1432,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_PORT='587'\nEMAIL_USE_TLS='True'\nEMAIL_HOST_USER='jnabango@gmail.com'\nEMAIL_HOST_PASSWORD='fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!",
+        "peekOfCode": "MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1441,7 +1441,61 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_PORT='587'\nEMAIL_USE_TLS='True'\nEMAIL_HOST_USER='jnabango@gmail.com'\nEMAIL_HOST_PASSWORD='fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "peekOfCode": "MPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "detail": "ShambaSmart.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "ShambaSmart.settings",
+        "description": "ShambaSmart.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "detail": "ShambaSmart.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "ShambaSmart.settings",
+        "description": "ShambaSmart.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "detail": "ShambaSmart.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "ShambaSmart.settings",
+        "description": "ShambaSmart.settings",
+        "peekOfCode": "EMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "detail": "ShambaSmart.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "ShambaSmart.settings",
+        "description": "ShambaSmart.settings",
+        "peekOfCode": "EMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "detail": "ShambaSmart.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "ShambaSmart.settings",
+        "description": "ShambaSmart.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "detail": "ShambaSmart.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "ShambaSmart.settings",
+        "description": "ShambaSmart.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },

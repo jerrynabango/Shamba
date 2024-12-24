@@ -214,12 +214,12 @@ MPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'
 
 
 # Email
-EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST='smtp.gmail.com'
-EMAIL_PORT='587'
-EMAIL_USE_TLS='True'
-EMAIL_HOST_USER='jnabango@gmail.com'
-EMAIL_HOST_PASSWORD='fxdb mmza zknq taif'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '587'
+EMAIL_USE_TLS = 'True'
+EMAIL_HOST_USER = 'jnabango@gmail.com'
+EMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
