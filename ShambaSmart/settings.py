@@ -30,7 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
    #'ShambaSmart.herokuapp.com',
-   #'farmhelp.onrender.com'
+   '127.0.0.1',
+   'farmhelp.onrender.com'
 ]
 
 # Application definition
