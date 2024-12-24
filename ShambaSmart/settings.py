@@ -88,7 +88,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'gunicorn ShambaSmart.wsgi:application --bind 0.0.0.0:$PORT'
+WSGI_APPLICATION = 'ShambaSmart.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases

@@ -1207,7 +1207,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'gunicorn ShambaSmart.wsgi:application --bind 0.0.0.0:$PORT'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'ShambaSmart.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
