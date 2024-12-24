@@ -1135,7 +1135,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n   #'ShambaSmart.herokuapp.com',\n   '127.0.0.1',\n   'farmhelp.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n   #'ShambaSmart.herokuapp.com',\n   '127.0.0.1',\n   'ShambaSmart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1144,7 +1144,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\n   #'ShambaSmart.herokuapp.com',\n   '127.0.0.1',\n   'farmhelp.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\n   #'ShambaSmart.herokuapp.com',\n   '127.0.0.1',\n   'ShambaSmart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1153,7 +1153,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\n   #'ShambaSmart.herokuapp.com',\n   '127.0.0.1',\n   'farmhelp.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "ALLOWED_HOSTS = [\n   #'ShambaSmart.herokuapp.com',\n   '127.0.0.1',\n   'ShambaSmart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
