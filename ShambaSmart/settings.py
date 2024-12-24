@@ -29,9 +29,9 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-   #'ShambaSmart.herokuapp.com',
-   '127.0.0.1',
-   'ShambaSmart.onrender.com'
+    'localhost',
+    '127.0.0.1',
+    'ShambaSmart.onrender.com'
 ]
 
 # Application definition
@@ -88,8 +88,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ShambaSmart.wsgi.application'
-
+WSGI_APPLICATION = 'gunicorn ShambaSmart.wsgi:application --bind 0.0.0.0:$PORT'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
