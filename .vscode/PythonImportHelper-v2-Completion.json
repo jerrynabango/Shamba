@@ -1135,7 +1135,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    'ShambaSmart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    'shamba-smart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1144,7 +1144,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    'ShambaSmart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "ALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    'shamba-smart.onrender.com'\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1315,7 +1315,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'Shamba.CustomUser'\n# Login required redirection\nLOGIN_URL = '/login/'\n# Time\nTIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\nWSGI_APPLICATION = 'ShambaSmart.wsgi.application'\nASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'Shamba.CustomUser'\n# Login required redirection\nLOGIN_URL = '/login/'\n# Time\nTIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1324,7 +1324,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'Shamba.CustomUser'\n# Login required redirection\nLOGIN_URL = '/login/'\n# Time\nTIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\nWSGI_APPLICATION = 'ShambaSmart.wsgi.application'\nASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')",
+        "peekOfCode": "AUTH_USER_MODEL = 'Shamba.CustomUser'\n# Login required redirection\nLOGIN_URL = '/login/'\n# Time\nTIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1333,7 +1333,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "LOGIN_URL = '/login/'\n# Time\nTIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\nWSGI_APPLICATION = 'ShambaSmart.wsgi.application'\nASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')",
+        "peekOfCode": "LOGIN_URL = '/login/'\n# Time\nTIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1342,7 +1342,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "TIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\nWSGI_APPLICATION = 'ShambaSmart.wsgi.application'\nASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')",
+        "peekOfCode": "TIME_ZONE = 'Africa/Nairobi'\nUSE_TZ = True\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')\n# Messages\nMESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1351,25 +1351,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "USE_TZ = True\nWSGI_APPLICATION = 'ShambaSmart.wsgi.application'\nASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')\n# Messages",
-        "detail": "ShambaSmart.settings",
-        "documentation": {}
-    },
-    {
-        "label": "WSGI_APPLICATION",
-        "kind": 5,
-        "importPath": "ShambaSmart.settings",
-        "description": "ShambaSmart.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'ShambaSmart.wsgi.application'\nASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')\n# Messages\nMESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'",
-        "detail": "ShambaSmart.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ASGI_APPLICATION",
-        "kind": 5,
-        "importPath": "ShambaSmart.settings",
-        "description": "ShambaSmart.settings",
-        "peekOfCode": "ASGI_APPLICATION = 'Shamba_advice.asgi.application'\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')\n# Messages\nMESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'\nMESSAGE_TAGS = {",
+        "peekOfCode": "USE_TZ = True\n# M-Pesa credentials\n# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')\n# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')\n# MPESA_SHORTCODE = config('MPESA_SHORTCODE')\n# MPESA_PASSKEY = config('MPESA_PASSKEY')\n# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')\n# Messages\nMESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'\nMESSAGE_TAGS = {",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1405,7 +1387,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_CONSUMER_KEY = '50t2mN7NirbBsqjAu0FvACzJETJGpBGfJMroUGtEYMzHtP7H'\nMPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'",
+        "peekOfCode": "MPESA_CONSUMER_KEY = '50t2mN7NirbBsqjAu0FvACzJETJGpBGfJMroUGtEYMzHtP7H'\nMPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://shamba-smart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1414,7 +1396,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'",
+        "peekOfCode": "MPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'\nMPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://shamba-smart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1423,7 +1405,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'",
+        "peekOfCode": "MPESA_SHORTCODE = '174379'\nMPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://shamba-smart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1432,7 +1414,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!",
+        "peekOfCode": "MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'\nMPESA_CALLBACK_URL = 'https://shamba-smart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },
@@ -1441,7 +1423,7 @@
         "kind": 5,
         "importPath": "ShambaSmart.settings",
         "description": "ShambaSmart.settings",
-        "peekOfCode": "MPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
+        "peekOfCode": "MPESA_CALLBACK_URL = 'https://shamba-smart.onrender.com/mpesa/callback'\n# Email\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = '587'\nEMAIL_USE_TLS = 'True'\nEMAIL_HOST_USER = 'jnabango@gmail.com'\nEMAIL_HOST_PASSWORD = 'fxdb mmza zknq taif'\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'",
         "detail": "ShambaSmart.settings",
         "documentation": {}
     },

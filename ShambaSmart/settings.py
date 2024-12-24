@@ -31,7 +31,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'ShambaSmart.onrender.com'
+    'shamba-smart.onrender.com'
 ]
 
 # Application definition
@@ -162,10 +162,6 @@ LOGIN_URL = '/login/'
 TIME_ZONE = 'Africa/Nairobi'
 USE_TZ = True
 
-WSGI_APPLICATION = 'ShambaSmart.wsgi.application'
-
-ASGI_APPLICATION = 'Shamba_advice.asgi.application'
-
 
 # M-Pesa credentials
 # MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')
@@ -210,7 +206,7 @@ MPESA_CONSUMER_KEY = '50t2mN7NirbBsqjAu0FvACzJETJGpBGfJMroUGtEYMzHtP7H'
 MPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'
 MPESA_SHORTCODE = '174379'
 MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
-MPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'
+MPESA_CALLBACK_URL = 'https://shamba-smart.onrender.com/mpesa/callback'
 
 
 # Email
