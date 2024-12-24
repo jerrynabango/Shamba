@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+# SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -168,11 +168,11 @@ ASGI_APPLICATION = 'Shamba_advice.asgi.application'
 
 
 # M-Pesa credentials
-MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')
-MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')
-MPESA_SHORTCODE = config('MPESA_SHORTCODE')
-MPESA_PASSKEY = config('MPESA_PASSKEY')
-MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')
+# MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')
+# MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')
+# MPESA_SHORTCODE = config('MPESA_SHORTCODE')
+# MPESA_PASSKEY = config('MPESA_PASSKEY')
+# MPESA_CALLBACK_URL = config('MPESA_CALLBACK_URL')
 
 
 # Messages
@@ -197,9 +197,30 @@ CHANNEL_LAYERS = {
 
 
 # Email Backend
-EMAIL_BACKEND = config('EMAIL_BACKEND')
-EMAIL_HOST = config('EMAIL_HOST')
-EMAIL_PORT = config('EMAIL_PORT', cast=int)
-EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+# EMAIL_BACKEND = config('EMAIL_BACKEND')
+# EMAIL_HOST = config('EMAIL_HOST')
+# EMAIL_PORT = config('EMAIL_PORT', cast=int)
+# EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+
+
+# Safaricom Daraja API credentials
+MPESA_CONSUMER_KEY = '50t2mN7NirbBsqjAu0FvACzJETJGpBGfJMroUGtEYMzHtP7H'
+MPESA_CONSUMER_SECRET = 'upGg9DDoyl4nwUa2PYOpIzYAGRsKGJp66rXI4RYbend9j9pZ9pVowI5Ok5F2AjqR'
+MPESA_SHORTCODE = '174379'
+MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
+MPESA_CALLBACK_URL = 'https://ShambaSmart.onrender.com/mpesa/callback'
+
+
+# Email
+EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT='587'
+EMAIL_USE_TLS='True'
+EMAIL_HOST_USER='jnabango@gmail.com'
+EMAIL_HOST_PASSWORD='fxdb mmza zknq taif'
+
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-g%x!g9+o+h9)o+zs0ga596py0a$vfq)@^zwo2w8^lzr85!^86q'

@@ -578,11 +578,11 @@ def initiate_mpesa_payment(phone_number, amount):
     """
     try:
         # Load credentials from environment variables
-        consumer_key = config('MPESA_CONSUMER_KEY')
-        consumer_secret = config('MPESA_CONSUMER_SECRET')
-        shortcode = config('MPESA_SHORTCODE')
-        passkey = config('MPESA_PASSKEY')
-        callback_url = config('MPESA_CALLBACK_URL')
+        consumer_key = 'MPESA_CONSUMER_KEY'
+        consumer_secret = 'MPESA_CONSUMER_SECRET'
+        shortcode = 'MPESA_SHORTCODE'
+        passkey = 'MPESA_PASSKEY'
+        callback_url = 'MPESA_CALLBACK_URL'
 
         # Generate access token
         token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials'
