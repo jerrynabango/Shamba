@@ -85,16 +85,18 @@
             background-color: #218838;
         }
 
-        .back-link {
-            display: block;
+        .link-group {
             text-align: center;
             margin-top: 20px;
+        }
+
+        .link-group a {
             font-size: 1rem;
             color: #007bff;
             text-decoration: none;
         }
 
-        .back-link:hover {
+        .link-group a:hover {
             text-decoration: underline;
         }
     </style>
@@ -139,7 +141,12 @@
             <button type="submit">Login</button>
         </form>
 
-        <a href="password_reset" class="back-link">Forgot Password?</a>
+        <div class="link-group">
+            <a href="password_reset">Forgot Password?</a>
+        </div>
+        <div class="link-group">
+            <a href="{% url 'register' %}">Don't have an account? Register</a>
+        </div>
     </div>
 </body>
 </html>
